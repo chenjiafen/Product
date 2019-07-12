@@ -18,5 +18,15 @@ public class ProductService {
 		ProductDao pd = new ProductDao();
 		return pd.findAll();
 	}
+	
+	/**
+	 * 增加商品
+	 * @param pro
+	 * @throws SQLException 
+	 */
+	public void saveProduct(Product pro) throws SQLException {
+		ProductDao pd= new ProductDao();
+		pd.saveProduct(pro);
+	}
 
 }

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="${pageContext.request.contextPath}/product?method=findAll ">查询所有商品</a>
+	<a href="${pageContext.request.contextPath}/product?method=findAll ">查询所有商品</a><br>
+	<a href="${pageContext.request.contextPath}/product?method=addUI">添加商品</a>
 </body>
 </html>
